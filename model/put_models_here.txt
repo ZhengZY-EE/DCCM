@@ -1,0 +1,6 @@
+import numpy as np
+from PIL import Image
+
+img_np = np.load('samples_32x256x256x3.npz')
+img = Image.fromarray(img_np['arr_0'][2])
+img.save('sample1.png')
