@@ -27,7 +27,7 @@ Paste the models to  ```./models```
 #### 3) Set environment
 We follow the environment settings in [DPS](https://github.com/DPS2022/diffusion-posterior-sampling) and [Consistency Model](https://github.com/openai/consistency_models).
 
-Use the external codes for motion-blurring and non-linear deblurring (Igonore if you have downloaded the codes include these external codes). Note that ```GOPRO_wVAE.pth``` shoud be downloaded and placed in ```bkse/\experiments\pretrained```.
+Use the external codes for motion-blurring and non-linear deblurring (Igonore if you have downloaded the codes include these external codes). Note that ```GOPRO_wVAE.pth``` shoud be downloaded and placed in ```bkse\experiments\pretrained```.
 
 ```
 git clone https://github.com/VinAIResearch/blur-kernel-space-exploring bkse
