@@ -6,7 +6,7 @@ https://ieeexplore.ieee.org/abstract/document/10647264/
 
 **Abstract:** *Existing diffusion models for inverse problems have demonstrated impressive performance but suffer from prohibitive sampling complexity due to lengthy iterative sampling procedures. While introducing pre-trained consistency models (CMs) as priors holds promise for fast and high-quality sampling, theoretical disparities between CMs and diffusion models remain, hindering the application of CMs in solving inverse problems. To address this issue, we propose a novel framework, named Dual Data Consistency Guided Consistency Model (DCCM), that for the first time to solve inverse problems with pretrained CM priors. We establish a denoising interpretation of CMs to set up the equivalence between CMs and denoisers and incorporate CM in a theoretically sound fashion. Consequently, we develop refined data consistency to facilitate optimization with CM priors and avoid local minima caused by the nonlinearity of degradation operators. Furthermore, we introduce the data consistency shortcut that leverages the manifold hypothesis to approximate refined data consistency and bypass backpropagation for enhanced sampling speed without reconstruction quality loss. Extensive experiments demonstrate DCCM achieves state-of-the-art performance in terms of reconstruction quality and sampling speed in a wide range tasks of image deblurring, super-resolution, and inpainting.*
 
-This resository is based on OpenAI-consistency model (https://github.com/openai/consistency_models).
+This repository is based on OpenAI-consistency model (https://github.com/openai/consistency_models).
 
 ### Prerequisites
 - python 3.8
